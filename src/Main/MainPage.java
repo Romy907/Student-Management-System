@@ -15,6 +15,9 @@ import javax.swing.JButton;
 import javax.swing.JTable;
 import javax.swing.ListSelectionModel;
 import javax.swing.border.EmptyBorder;
+
+//import GUI.AddStudent;
+
 import javax.swing.JMenu;
 import javax.swing.JMenuItem;
 
@@ -67,6 +70,8 @@ public class MainPage extends JFrame {
 		JTabbedPane tabbedPane = new JTabbedPane(JTabbedPane.TOP);
 		contentPane.add(tabbedPane);
 		
+		AddStudent panel = new AddStudent();
+		tabbedPane.addTab("ADD STUDENT", null, panel, null);
 
 		setVisible(true);
 	}
