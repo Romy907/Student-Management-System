@@ -16,7 +16,6 @@ import javax.swing.JTable;
 import javax.swing.ListSelectionModel;
 import javax.swing.border.EmptyBorder;
 
-//import GUI.AddStudent;
 
 import javax.swing.JMenu;
 import javax.swing.JMenuItem;
@@ -72,6 +71,10 @@ public class MainPage extends JFrame {
 		
 		AddStudent panel = new AddStudent();
 		tabbedPane.addTab("ADD STUDENT", null, panel, null);
+		
+		RegisteredStudent panel_2 = new RegisteredStudent();
+		tabbedPane.addTab("Count", null, panel_2, null);
+
 
 		setVisible(true);
 	}
