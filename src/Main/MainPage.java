@@ -16,6 +16,7 @@ import javax.swing.JTable;
 import javax.swing.ListSelectionModel;
 import javax.swing.border.EmptyBorder;
 
+import GUI.SearchByName;
 
 import javax.swing.JMenu;
 import javax.swing.JMenuItem;
@@ -78,6 +79,9 @@ public class MainPage extends JFrame {
 		UpdateDelete panel_3 = new UpdateDelete();
 		tabbedPane.addTab("Update", null, panel_3, null);
 		
+
+		SearchByName panel_1 = new SearchByName();
+		tabbedPane.addTab("SEARCH", null, panel_1, null);
 
 		setVisible(true);
 	}
