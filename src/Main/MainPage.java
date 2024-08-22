@@ -75,6 +75,8 @@ public class MainPage extends JFrame {
 		RegisteredStudent panel_2 = new RegisteredStudent();
 		tabbedPane.addTab("Count", null, panel_2, null);
 
+		SearchByName panel_1 = new SearchByName();
+		tabbedPane.addTab("SEARCH", null, panel_1, null);
 
 		setVisible(true);
 	}
