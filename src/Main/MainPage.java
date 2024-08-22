@@ -75,6 +75,9 @@ public class MainPage extends JFrame {
 		RegisteredStudent panel_2 = new RegisteredStudent();
 		tabbedPane.addTab("Count", null, panel_2, null);
 
+		UpdateDelete panel_3 = new UpdateDelete();
+		tabbedPane.addTab("Update", null, panel_3, null);
+		
 
 		setVisible(true);
 	}
